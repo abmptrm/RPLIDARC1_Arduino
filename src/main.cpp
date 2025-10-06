@@ -65,9 +65,9 @@ void getHealth(HardwareSerial &serial) {
 
 
 void setup() {
-  Serial.begin(115200); // Initialize Serial Monitor
-  Serial1.begin(460800); // Initialize LiDAR UART communication
-  delay(1000); // Wait for the motor to stabilize
+  Serial.begin(115200); 
+  Serial1.begin(460800); // LiDAR UART communication
+  delay(1000);
 
   // Kirim perintah Start Scan
   startScan(Serial1); 
@@ -76,7 +76,7 @@ void setup() {
 void loop() {
   LidarPoint pt;
   if (readLidarPoint(Serial1, pt)) {
-    Serial.print("📍 Jarak: ");
+    Serial.print("Jarak: ");
     Serial.print(pt.distance, 1);
     Serial.print(" mm | Sudut: ");
     Serial.print(pt.angle, 1);
