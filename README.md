@@ -1,1 +1,1 @@
-![RPLIDARC1](https://cdn.discordapp.com/attachments/1175717539511291945/1398952013173096478/WhatsApp_Image_2025-07-26_at_17.30.20_ba0f506f.jpg?ex=68aad397&is=68a98217&hm=29637625adc36700a2691991404a69350b9b2ea67d64b78eb219f45f09ac83ad&)
+![RPLIDARC1 ARDUINO](https://github.com/user-attachments/assets/2a53edce-3d3d-43b9-b2b2-d0f4c29cd046)
